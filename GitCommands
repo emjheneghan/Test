@@ -1,0 +1,32 @@
+first initalise:
+git config --global user.name "yourname"
+
+git config --global user.email "youremail.com"
+
+use pwd to see where you are
+
+user cd to move
+
+create a new folder - mkdir folderName
+
+move into the folder and initalise git using - git init
+
+set up a link to the git folder :
+git remote add *NAME* http//www.file address
+eg
+git remote add origion https://github.com/emjheneghan/Test.git
+
+to paste the link, right click on the top of the git bash screen,
+choose edit, then paste
+
+check that you added a name - git remote, 
+the result should list any shortcuts you made, aka, origin
+
+to pull from git - git pull http/www.webaddress
+
+to push to git
+1. add your change to an intermediate layer, git add .
+2. commit your change and add a comment, git commit -m"this is a comment"
+3. you can check the status, git status - to see if your commit worked
+4. push, git push origin master, origin the nickname, master is you
+
